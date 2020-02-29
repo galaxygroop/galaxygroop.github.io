@@ -1,0 +1,128 @@
+html { overflow-x:  hidden; }
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+body{
+	background: url(images/2.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.R-b{
+	position: absolute;
+	display: block;
+	background-color: rgb(17, 17, 17);
+	width: 20vw;
+	height: 97vh;
+	right: -200px;
+	transition: 0.5s;
+	top: 1.5%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.R-b:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+
+.L-b{
+	display: block;
+	position: absolute;
+	background-color: rgb(17, 17, 17);
+	width: 20vw;
+	height: 97vh;
+	left: -200px;
+	transition: 0.5s;
+	top: 1.5%;
+	opacity: 0.8;
+	border-radius: 20px;
+}
+
+.L-b:hover{
+	left: 0px;
+	transition: 0.5s;
+}
+
+.C-b{
+	display: block;
+	position: absolute;
+	background-color: rgb(17, 17, 17);
+	width: 40vw;
+	height: 97vh;
+	left: 30%;
+	transition: 0.3s;
+	top: 1.5%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.C-b:hover{
+	left: 28.5%;
+	width: 43vw;
+	transition: 0.3s;
+}
+
+.icon-1{
+	position: absolute;
+	width: 23%;
+	height: auto;
+	left: 6%;
+	top: 15%;
+}
+
+.T-des-1{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 16%;
+}
+
+.T-des-1-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 22%;
+}
+
+.T-left-1{
+	position: absolute;
+	color: white;
+	right: 35%;
+	top: 16%;
+}
+
+.icon-left-1{
+	position: absolute;
+	width: 57%;
+	height: auto;
+	right: -10%;
+	top: 6.5%;
+	cursor: pointer;
+}
+
+.icon-left-2{
+	position: absolute;
+	width: 52%;
+	height: auto;
+	right: -7%;
+	top: 23%;
+	cursor: pointer;
+}
+
+.icon-left-3{
+	position: absolute;
+	width: 52%;
+	height: auto;
+	right: -7%;
+	top: 37%;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
