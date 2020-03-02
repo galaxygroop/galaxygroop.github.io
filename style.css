@@ -70,9 +70,9 @@ body{
 	display: block;
 	position: absolute;
 	background-color: rgb(17, 17, 17);
-	width: 60vw;
+	width: 50vw;
 	height: 10vh;
-	left: 20%;
+	left: 25%;
 	transition: 0.3s;
 	bottom: 1.5%;
 	border-radius: 20px;
@@ -90,21 +90,52 @@ body{
 	width: 23%;
 	height: auto;
 	left: 6%;
-	top: 15%;
+	top: 11%;
+}
+
+.icon-2{
+	position: absolute;
+	width: 32%;
+	height: auto;
+	left: 5.5%;
+	top: 30%;
 }
 
 .T-des-1{
 	position: absolute;
 	color: white;
 	left: 46%;
-	top: 16%;
+	top: 10%;
 }
 
 .T-des-1-2{
 	position: absolute;
 	color: white;
 	left: 46%;
-	top: 22%;
+	top: 16%;
+}
+
+
+
+.T-des-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 33%;
+}
+
+.T-des-3{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 56%;
+}
+
+.T-des-4{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 79%;
 }
 
 .T-left-1{
@@ -113,11 +144,10 @@ body{
 	right: 35%;
 	top: 16%;
 }
-
 .T-bottom-2{
 	position: absolute;
 	color: white;
-	right: 25%;
+	right: 21%;
 	top: 37%;
 }
 
