@@ -1,4 +1,6 @@
-html { overflow-x:  hidden; }
+html { overflow-x:  hidden;
+overflow-y:  hidden;
+ }
 
 *{
 	margin: 0;
@@ -17,15 +19,15 @@ body{
 	background-color: rgb(17, 17, 17);
 	width: 20vw;
 	height: 97vh;
-	right: -200px;
+	right: -13%;
 	transition: 0.5s;
 	top: 1.5%;
 	border-radius: 20px;
 	opacity: 0.8;
-}
+	}
 
 .R-b:hover{
-	right: 0px;
+	right: 0%;
 	transition: 0.5s;
 }
 
@@ -35,7 +37,7 @@ body{
 	background-color: rgb(17, 17, 17);
 	width: 20vw;
 	height: 97vh;
-	left: -200px;
+	left: -13%;
 	transition: 0.5s;
 	top: 1.5%;
 	opacity: 0.8;
@@ -43,7 +45,7 @@ body{
 }
 
 .L-b:hover{
-	left: 0px;
+	left: 0%;
 	transition: 0.5s;
 }
 
@@ -97,9 +99,26 @@ body{
 	position: absolute;
 	width: 32%;
 	height: auto;
-	left: 5.5%;
+	left: 3%;
 	top: 30%;
 }
+
+.icon-3{
+	position: absolute;
+	width: 27%;
+	height: auto;
+	left: 5.5%;
+	top: 53%;
+}
+
+.icon-4{
+	position: absolute;
+	width: 27%;
+	height: auto;
+	left: 5.5%;
+	top: 76%;
+}
+
 
 .T-des-1{
 	position: absolute;
@@ -183,5 +202,106 @@ a{
 	color: white;
 }
 
-.T-c{align-items: }
+.C-b-2{
+	display: block;
+	position: absolute;
+	background-color: rgb(17, 17, 17);
+	width: 90vw;
+	height: 120vh;
+	left: -200%;
+	transition: 0.3s;
+	top: 1.5%;
+	border-radius;
+}
 
+
+
+
+@media all and (min-width: 768px) and (max-width: 1100px){
+
+body{
+	background: url(images/2.jfif);
+	background-repeat: no-repeat;
+	background-size: 500%;
+}
+
+.R-b{
+	position: absolute;
+	display: block;
+	width: 20vw;
+	height: 97vh;
+	right: -200%;
+	top: 1.5%;
+	}
+
+.L-b{
+	display: block;
+	position: absolute;
+	width: 20vw;
+	height: 97vh;
+	left: -200%;
+	top: 1.5%;
+}
+
+.C-b{
+	display: block;
+	position: absolute;
+	width: 40vw;
+	height: 80vh;
+	left: -200%;
+	top: 1.5%;
+
+}
+
+.C-b:hover{
+	left: -200%;
+	width: 43vw;
+}
+
+.C-b-2{
+	display: block;
+	position: absolute;
+	background-color: rgb(17, 17, 17);
+	width: 90vw;
+	height: 120vh;
+	left: 27.5%;
+	transition: 0.3s;
+	top: 1.5%;
+	border-radius
+}
+
+
+.B-b{
+	display: block;
+	position: absolute;
+	background-color: rgb(17, 17, 17);
+	width: 90vw;
+	height: 10vh;
+	left: 0%;
+	transition: 0.3s;
+	bottom: -14%;
+	border-radius: 20px;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.B-b:hover{
+	display: block;
+	position: absolute;
+	background-color: rgb(17, 17, 17);
+	width: 90vw;
+	height: 10vh;
+	left: 0%;
+	transition: 0.3s;
+	bottom: -14%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.B-b h3{
+	position: absolute;
+	left: 20%;
+	font-size: 30px;
+}
+
+}
