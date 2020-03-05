@@ -220,8 +220,8 @@ body{
 	position: absolute;
 	width: 82%;
 	height: auto;
-	right: -5.7%;
-	top: 74%;
+	right: -4%;
+	top: 76%;
 	cursor: pointer;
 }
 
@@ -240,6 +240,19 @@ a{
 	transition: 0.3s;
 	top: 1.5%;
 	border-radius;
+}
+
+.C-b-3{
+	display: block;
+	position: absolute;
+	background: rgb(17, 17, 17);
+	width: 110vw;
+	height: 120vh;
+	left: -200%;
+	top: 130%;
+	opacity: 0.8;
+	border-radius: 20px;
+	transition: 0.3s;
 }
 
 
@@ -295,9 +308,9 @@ body{
 	display: block;
 	position: absolute;
 	background: rgb(17, 17, 17);
-	width: 90vw;
+	width: 110vw;
 	height: 120vh;
-	left: 28%;
+	left: 18%;
 	top: 1.5%;
 	opacity: 0.8;
 	border-radius: 20px;
@@ -308,9 +321,9 @@ body{
 	display: block;
 	position: absolute;
 	background: rgb(17, 17, 17);
-	width: 90vw;
+	width: 110vw;
 	height: 120vh;
-	left: 28%;
+	left: 18%;
 	top: 130%;
 	opacity: 0.8;
 	border-radius: 20px;
@@ -321,11 +334,11 @@ body{
 	display: block;
 	position: absolute;
 	background-color: rgb(17, 17, 17);
-	width: 90vw;
+	width: 110vw;
 	height: 10vh;
-	left: 28%;
+	left: 18%;
 	transition: 0.3s;
-	bottom: -170%;
+	bottom: -168%;
 	border-radius: 20px;
 	opacity: 0.8;
 	text-align: center;
@@ -336,15 +349,16 @@ body{
 	display: block;
 	position: absolute;
 	background-color: rgb(17, 17, 17);
-	width: 90vw;
+	width: 110vw;
 	height: 10vh;
-	left: 28%;
+	left: 18%;
 	transition: 0.3s;
-	bottom: -40%;
+	bottom: -168%;
 	border-radius: 20px;
 	opacity: 0.8;
 	text-align: center;
 }
+
 
 .icon-1{
 	position: absolute;
@@ -439,6 +453,84 @@ body{
 	left: 46%;
 	top: 85%;
 	font-size: 50px;
+}
+
+.icon-left-1{
+	position: absolute;
+	width: 57%;
+	height: auto;
+	left: -10%;
+	top: 6.5%;
+	cursor: pointer;
+}
+
+.icon-left-2{
+	position: absolute;
+	width: 52%;
+	height: auto;
+	left: -7%;
+	top: 26%;
+	cursor: pointer;
+}
+
+.icon-left-3{
+	position: absolute;
+	width: 52%;
+	height: auto;
+	left: -7%;
+	top: 45%;
+	cursor: pointer;
+}
+
+.icon-left-4{
+	position: absolute;
+	width: 82%;
+	height: auto;
+	right: 57%;
+	top: 74%;
+	cursor: pointer;
+}
+
+
+
+.T-left-1{
+	position: absolute;
+	color: white;
+	left: 35%;
+	top: 18%;
+	font-size: 65px;
+}
+
+.T-left-2{
+	position: absolute;
+	color: white;
+	left: 35%;
+	top: 36%;
+	font-size: 65px;
+}
+
+.T-left-3{
+	position: absolute;
+	color: white;
+	left: 35%;
+	top: 55%;
+	font-size: 65px;
+}
+
+.T-left-4{
+	position: absolute;
+	color: white;
+	left: 35%;
+	top: 76%;
+	font-size: 65px;
+}
+
+.T-bottom-2{
+	position: absolute;
+	color: white;
+	left: 20%;
+	top: 29%;
+	font-size: 40px;
 }
 
 }	
