@@ -268,7 +268,7 @@ html {
 body{
 	background: url(images/2.jfif);
 	background-repeat: no-repeat;
-	background-size: 1000%;
+	background-size: 1100%;
 	}
 
 .R-b{
@@ -324,7 +324,7 @@ body{
 	width: 110vw;
 	height: 120vh;
 	left: 18%;
-	top: 130%;
+	top: 140%;
 	opacity: 0.8;
 	border-radius: 20px;
 	transition: 0.3s;
@@ -338,7 +338,7 @@ body{
 	height: 10vh;
 	left: 18%;
 	transition: 0.3s;
-	bottom: -168%;
+	bottom: -190%;
 	border-radius: 20px;
 	opacity: 0.8;
 	text-align: center;
@@ -359,6 +359,12 @@ body{
 	text-align: center;
 }
 
+.T-bottom-2{
+	position: absolute;
+	color: white;
+	left: 22%;
+	top: 38%;
+}
 
 .icon-1{
 	position: absolute;
@@ -528,8 +534,8 @@ body{
 .T-bottom-2{
 	position: absolute;
 	color: white;
-	left: 20%;
-	top: 29%;
+	right: 21%;
+	top: 20%;
 	font-size: 40px;
 }
 
