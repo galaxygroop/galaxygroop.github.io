@@ -15,20 +15,21 @@ body{
 
 .R-b{
 	display: block;
+	position: absolute;
 	background-color: rgb(17, 17, 17);
 	width: 20vw;
 	height: 97vh;
 	right: -13%;
 	transition: 0.5s;
 	top: 1.5%;
-	border-radius: 20px;
 	opacity: 0.8;
+	border-radius: 20px;
 	}
 
 .R-b:hover{
 	right: 0%;
 	transition: 0.5s;
-
+}
 .L-b{
 	display: block;
 	position: absolute;
@@ -47,9 +48,23 @@ body{
 	transition: 0.5s;
 }
 
-.C-b:hover{
+.C-b{
+	display: block;
+	position: absolute;
+	background: rgb(17, 17, 17);
+	width: 40vw;
+	height: 80vh;
 	left: 28.5%;
+	top: 1.5%;
+	opacity: 0.8;
+	border-radius: 20px;
+	transition: 0.3s;	
+}
+
+.C-b:hover{
 	width: 43vw;
+	transition: 0.3s;
+	left: 27%;
 }
 
 .B-b{
@@ -66,7 +81,7 @@ body{
 	}
 
 .B-b:hover{
-	height: 13vh;
+	transition: 0.5;
 }
 
 
@@ -75,6 +90,7 @@ body{
 	position: absolute;
 	width: 23%;
 	height: auto;
+	top: 7%;
 	left: 6%;
 }
 
@@ -163,7 +179,7 @@ body{
 	width: 52%;
 	height: auto;
 	right: -7%;
-	top: 23%;
+	top: 26%;
 	cursor: pointer;
 }
 
@@ -172,7 +188,16 @@ body{
 	width: 52%;
 	height: auto;
 	right: -7%;
-	top: 37%;
+	top: 48%;
+	cursor: pointer;
+}
+
+.icon-left-4{
+	position: absolute;
+	width: 82%;
+	height: auto;
+	right: -5.7%;
+	top: 74%;
 	cursor: pointer;
 }
 
@@ -240,7 +265,7 @@ body{
 
 .C-b-2{
 	display: block;
-		position: absolute;
+	position: absolute;
 	background-color: rgb(17, 17, 17);
 	width: 90vw;
 	height: 120vh;
@@ -256,27 +281,13 @@ body{
 	height: 10vh;
 	left: 0%;
 	transition: 0.3s;
-	bottom: -14%;
+	bottom: 20%;
 	border-radius: 20px;
 	opacity: 0.8;
-		text-align: center;
+	text-align: center;
 }
 
 .B-b:hover{
-	display: block;
-	position: absolute;
-	background-color: rgb(17, 17, 17);
-	width: 90vw;
-	height: 10vh;
-	left: 0%;
-	transition: 0.3s;
-	bottom: -14%;
-	border-radius: 20px;
-	opacity: 0.8;
+
 }
 
-.B-b h3{
-	position: absolute;
-	left: 20%;
-	font-size: 30px;
-	}
