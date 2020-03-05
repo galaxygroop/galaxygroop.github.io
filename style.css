@@ -1,5 +1,6 @@
-html { overflow-x:  hidden;
-overflow-y:  hidden;
+html { 
+	overflow-x:  hidden;
+	overflow-y:  hidden;
  }
 
 *{
@@ -73,15 +74,17 @@ body{
 	background-color: rgb(17, 17, 17);
 	width: 50vw;
 	height: 10vh;
-	left: 25%;
+	left: 24%;
 	transition: 0.3s;
-	bottom: 1.5%;
+	bottom: 4%;
 	border-radius: 20px;
 	opacity: 0.8;
-	}
+	text-align: center;
+}
 
 .B-b:hover{
-	transition: 0.5;
+	height: 12vh;
+	transition: 0.3;
 }
 
 
@@ -137,11 +140,32 @@ body{
 	top: 33%;
 }
 
+.T-des-2-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 39%;
+}
+
 .T-des-3{
 	position: absolute;
 	color: white;
 	left: 46%;
 	top: 56%;
+}
+
+.T-des-3-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 62%;
+}
+
+.T-des-4-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 85%;
 }
 
 .T-des-4{
@@ -223,11 +247,15 @@ a{
 
 @media all and (min-width: 768px) and (max-width: 1100px){
 
+html { 
+	overflow-x:  hidden;
+	overflow-y: auto; 
+ }
+
 body{
 	background: url(images/2.jfif);
 	background-repeat: no-repeat;
-	background-size: 500%;
-
+	background-size: 1000%;
 	}
 
 .R-b{
@@ -266,28 +294,151 @@ body{
 .C-b-2{
 	display: block;
 	position: absolute;
-	background-color: rgb(17, 17, 17);
+	background: rgb(17, 17, 17);
 	width: 90vw;
 	height: 120vh;
-	left: 27.5%;
-	transition: 0.3s;
+	left: 28%;
 	top: 1.5%;
-}	
+	opacity: 0.8;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.C-b-3{
+	display: block;
+	position: absolute;
+	background: rgb(17, 17, 17);
+	width: 90vw;
+	height: 120vh;
+	left: 28%;
+	top: 130%;
+	opacity: 0.8;
+	border-radius: 20px;
+	transition: 0.3s;
+}		
+
 .B-b{
 	display: block;
 	position: absolute;
 	background-color: rgb(17, 17, 17);
 	width: 90vw;
 	height: 10vh;
-	left: 0%;
+	left: 28%;
 	transition: 0.3s;
-	bottom: 20%;
+	bottom: -170%;
 	border-radius: 20px;
 	opacity: 0.8;
 	text-align: center;
 }
 
-.B-b:hover{
 
+.B-b:hover{
+	display: block;
+	position: absolute;
+	background-color: rgb(17, 17, 17);
+	width: 90vw;
+	height: 10vh;
+	left: 28%;
+	transition: 0.3s;
+	bottom: -40%;
+	border-radius: 20px;
+	opacity: 0.8;
+	text-align: center;
 }
 
+.icon-1{
+	position: absolute;
+	width: 30%;
+	height: auto;
+	top: 7%;
+	left: 6%;
+}
+
+.icon-2{
+	position: absolute;
+	width: 39%;
+	height: auto;
+	left: 3%;
+	top: 30%;
+	}
+
+.icon-3{
+	position: absolute;
+	width: 34%;
+	height: auto;
+	left: 5.5%;
+	top: 53%;
+}
+
+.icon-4{
+	position: absolute;
+	width: 34%;
+	height: auto;
+	left: 5.5%;
+	top: 76%;
+}
+.T-des-1{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 10%;
+	font-size: 80px;
+}
+
+.T-des-1-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 16%;
+	font-size: 50px;
+}
+
+.T-des-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 33%;
+	font-size: 80px;
+}
+
+.T-des-2-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 39%;
+	font-size: 50px;
+}
+
+.T-des-3{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 56%;
+	font-size: 80px;
+}
+
+.T-des-3-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 62%;
+	font-size: 50px;
+}
+
+.T-des-4{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 79%;
+	font-size: 60px;	
+}
+
+.T-des-4-2{
+	position: absolute;
+	color: white;
+	left: 46%;
+	top: 85%;
+	font-size: 50px;
+}
+
+}	
